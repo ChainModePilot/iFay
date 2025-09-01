@@ -8,8 +8,6 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
 
 ## Profile of Human Host
 
----
-
 - Host Character
 - Host Data
 - Host Authority
@@ -17,11 +15,7 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
 
 ## iFay Profile
 
----
-
 ### Faying Thought
-
----
 
 - Content
 - Data
@@ -29,8 +23,6 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
 - Info Feed
 
 ### Faying Skill
-
----
 
 - API
 - Workflow
@@ -41,15 +33,11 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
         
 ### Faying Hardware
 
----
-
 - Device
 - Storage
 - Computing
 
 ### Faying Authority
-
----
 
 - SSO
 - OAuth
@@ -57,4 +45,3 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
 
 ## Cases Code
 
----
