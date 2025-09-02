@@ -50,3 +50,17 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
 
 # Cases Code
 
+
+# Contributing
+We welcome contributions in all forms!
+Whether you’re fixing bugs, improving documentation, or suggesting new features, please refer to our Contribution Guide to get started.
+
+🎯 Goal
+
+Our mission is to establish a shared standard for creating AI avatars. Every avatar must meet the following requirements:
+	1.	Replicate the personality of its human host
+	2.	Proactively reason and provide services based on context
+	3.	Be recognizable by other humans or iFay instances
+	4.	Interact and collaborate with other humans or iFay instances
+	5.	Take over and safeguard the human host’s privacy, including long-term memory
+
