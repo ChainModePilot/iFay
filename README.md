@@ -6,42 +6,55 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
 
 <br>
 
-## Profile of Human Host
+# Getting Started
+📚 Read the ![Documentation](https://github.com/jahguo/iFay/wiki) for guides and tutorials
+🔍 Review the Specification for protocol details
+- Human Profile
+  
+        - Host Character
+        - Host Data
+        - Host Authority
 
-- Host Character
-- Host Data
-- Host Authority
 
+- iFay Profile
+  
+        - Faying Thought
+                - Content
+                - Data
+                - Knowledge Base
+                - Info Feed
 
-## iFay Profile
-
-### Faying Thought
-
-- Content
-- Data
-- Knowledge Base
-- Info Feed
-
-### Faying Skill
-
-- API
-- Workflow
-- Bot
-- Agent
-- APP
-- Microservice
+        - Faying Skill
+                - API
+                - Workflow
+                - Bot
+                - Agent
+                - APP
+                - Microservice
         
-### Faying Hardware
+        -  Faying Hardware
+                - Device
+                - Storage
+                - Computing
 
-- Device
-- Storage
-- Computing
+        - Faying Authority
+                - SSO
+                - OAuth
+                - Fingerprint
 
-### Faying Authority
 
-- SSO
-- OAuth
-- Fingerprint
 
-## Cases Code
+# 💻 Use our SDKs to start building:
+
+        - TypeScript SDK (coming soon)
+        - Python SDK (coming soon)
+        - Java SDK (coming soon)
+        - Kotlin SDK (coming soon)
+        - C# SDK (coming soon)
+        - Go SDK (coming soon)
+        - Ruby SDK (coming soon)
+        - Rust SDK (coming soon)
+        - Swift SDK (coming soon)
+
+# Cases Code
 
