@@ -7,7 +7,7 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
 <br>
 
 # Getting Started
-📚 Read the [Documentation](https://github.com/jahguo/iFay/wiki) for guides and tutorials
+📚 Read the [Documentation](https://github.com/jahguo/iFay/wiki) for guides and tutorials <br>
 🔍 Review the Specification for protocol details:
 - Human Profile
   - Host Character
