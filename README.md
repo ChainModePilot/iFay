@@ -38,15 +38,15 @@ iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition 
 
 
 # 💻 Use our SDKs to start building:
-- TypeScript SDK (coming soon)
-- Python SDK (coming soon)
-- Java SDK (coming soon)
-- Kotlin SDK (coming soon)
-- C# SDK (coming soon)
-- Go SDK (coming soon)
-- Ruby SDK (coming soon)
-- Rust SDK (coming soon)
-- Swift SDK (coming soon)
+- TypeScript SDK
+- Python SDK
+- Java SDK
+- Kotlin SDK
+- C# SDK
+- Go SDK
+- Ruby SDK
+- Rust SDK
+- Swift SDK
 
 # Cases Code
 
