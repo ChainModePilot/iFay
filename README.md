@@ -3,12 +3,19 @@
 ![](https://github.com/user-attachments/assets/2cd8f495-58a3-4085-a38b-164d2edfc586)
 
 
-iFay (Intellect Fay) is a digital co-brain for humans. It fuses human cognition with AI computing power to deliver proactive prediction services. Instead of requiring users to manually operate external applications, APIs, MCPs, or hardware, iFay takes over execution. 
+iFay (Individual Fay) is an AI avatar that integrates the user's human personality and digital capabilities. 
+
+In the foreseeable future, it is evident that most jobs requiring knowledge, experience, and skilled operations can be accomplished by AI and robots. Even some trivial daily tasks in life can be entrusted to them.
+
+Therefore, we are committed to creating a digital avatar that is highly aligned with an individual human's values, preferences, and habits. It can independently handle tasks and solve problems in the host's style, and only interacts briefly with the host when delivering results or when situations are ambiguous.
 
 <br>
 
 # Getting Started
 📚 Read the [Documentation](https://github.com/ChainModePilot/iFay/wiki/Design-Principles-of-iFay) for guides and tutorials <br>
+
+Project overview: Check [Documentation](https://github.com/ChainModePilot/iFay/wiki)
+
 🔍 Review the Specification for protocol details:
 - Human Profile
   - Host Character
