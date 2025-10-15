@@ -12,9 +12,11 @@ Therefore, we are committed to creating a digital avatar that is highly aligned 
 <br>
 
 # Getting Started
-📚 Read the [Documentation](https://github.com/ChainModePilot/iFay/wiki/Design-Principles-of-iFay) for guides and tutorials <br>
+📚 Read the [Documentation](https://github.com/ChainModePilot/iFay/wiki/Design-Principles-of-iFay) for guides and tutorials <br/>
 
-Project overview: Check [Documentation](https://github.com/ChainModePilot/iFay/wiki)
+Project overview: Check [iFay Framework Alpha1](https://github.com/ChainModePilot/iFay/wiki) 
+We also use some proper nouns in the naming of documents and code: Check [Definition and Concept](https://github.com/ChainModePilot/iFay/wiki/Definition-and-Concept) 
+
 
 🔍 Review the Specification for protocol details:
 - Human Profile
