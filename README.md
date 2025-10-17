@@ -8,7 +8,7 @@ iFay (Individual Fay) is an AI avatar that integrates the user's human personali
 
 <br>
 
-# Getting Started
+### Getting Started
 - #### Overview
 
   - [Our Vision](https://github.com/ChainModePilot/iFay/wiki#our-vision)
@@ -85,11 +85,11 @@ iFay (Individual Fay) is an AI avatar that integrates the user's human personali
 
 <br>
 
-# Contributing
+### Contributing
 We welcome contributions in all forms!
 Whether you’re fixing bugs, improving documentation, or suggesting new features, please refer to our Contribution Guide to get started.
 
-🎯 Vision
+### 🎯 Vision
 
 🔆 iFay will undertake the following **social values**:
 1. Take over the mechanical, repetitive, dangerous labor and tedious auxiliary work of the host.
