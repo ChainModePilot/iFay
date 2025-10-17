@@ -83,6 +83,7 @@ iFay (Individual Fay) is an AI avatar that integrates the user's human personali
     - Control hardware devices
     - Control software
 
+<br>
 
 # Contributing
 We welcome contributions in all forms!
