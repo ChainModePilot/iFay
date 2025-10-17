@@ -89,6 +89,8 @@ iFay (Individual Fay) is an AI avatar that integrates the user's human personali
 We welcome contributions in all forms!
 Whether you’re fixing bugs, improving documentation, or suggesting new features, please refer to our Contribution Guide to get started.
 
+<br>
+
 ### 🎯 Vision
 
 🔆 iFay will undertake the following **social values**:
