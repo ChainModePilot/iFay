@@ -1,6 +1,6 @@
 We are still in the “human-operated era” — where both hardware and software rely on people interacting through interfaces to drive devices and execute functions.
 
-![](../images/blueprint/b1e99474-de84-48fc-983a-36db55403f8e.png)
+![](../images/blueprint/human-operation-era.png)
 
 Currently, the relationship between humans, devices, and service providers looks exactly like the diagram above.
 
@@ -11,7 +11,7 @@ Currently, the relationship between humans, devices, and service providers looks
 ## 1️⃣ Phase I ：Simulate Human Operations
 On top of the existing software and hardware architecture, we enable iFay to mimic human UI operations. 
 
-![Thinking of Phase I](../images/blueprint/741dfb70-7b7c-4d9e-88b6-f41f3803e996.png)
+![Thinking of Phase I](../images/blueprint/phase1-concept.png)
 
 
 To make this work, we need to achieve at least 2 things:
@@ -22,7 +22,7 @@ To make this work, we need to achieve at least 2 things:
 
 Based on the above ideas, when we release iFay v1.0, it will include the following 5 modules(that is, the orange part in the figure below):
 
-![Phase I: Simulate Human Operations](../images/blueprint/f61740ae-29ec-403b-815a-18c134cc6306.png)
+![Phase I: Simulate Human Operations](../images/blueprint/phase1-architecture.png)
 
 
 ### 1. FayID
@@ -97,7 +97,7 @@ While AI simulation of UI operations boosts efficiency, visual interfaces remain
 - 😰 _**Low information transfer efficiency**_: Intent must be translated into a visual interface before being fed back to the machine through user actions.
 - 🙄 _**High development cost**_: Building functional UIs requires cross-disciplinary(e.g., PMs, UI/UE, frontend R&D) coordination.
 
-![Thinking of Phase II](../images/blueprint/6cc18b8e-a497-4ee0-a2f6-745fcd9d6f5d.png)
+![Thinking of Phase II](../images/blueprint/phase2-concept.png)
 
 In contrast, if terminal devices support a client protocol (as shown above), iFay can directly control the hardware or software. This approach addresses all five issues above:
 - 😜 _**Unlimited output**_: Information is no longer constrained by UI display limitations.
@@ -114,7 +114,7 @@ I did set two protocols here that apply to terminals:
 
 In the diagram below, the blue sections correspond to these two protocols, targeting device functionality and data respectively.
 
-![Phase II: Direct Takeover Client](../images/blueprint/0863da99-1899-4404-9ae6-0abb4e996dc6.png)
+![Phase II: Direct Takeover Client](../images/blueprint/phase2-architecture.png)
 
 
 Compared to [Phase I](https://github.com/ChainModePilot/iFay/wiki#1%EF%B8%8F%E2%83%A3-phase-i-simulate-human-operations), iFay has added five new internal modules, starting with:
@@ -165,13 +165,13 @@ This is iFay’s primary Action — essentially, you can think of it as a call o
 With iFay taking over, the client–server (C/S) architecture evolves into a client–Fay–server (C/F/S) model.
 Users no longer need to operate the client manually to access backend services — instead, iFay can directly capture and utilize open services over the Internet.
 
-![Thinking of Phase III](../images/blueprint/44c49848-489d-4145-b4eb-47ed15d7c426.png)
+![Thinking of Phase III](../images/blueprint/phase3-concept.png)
 
 To achieve this goal, the services and interfaces that were previously exposed only to clients should be made accessible to the entire network through a standardized Remote Protocol. 
 
 This Remote Protocol is exactly the [Skill Sharing Protocol](https://github.com/ChainModePilot/Skill-Sharing-Protocol/wiki) shown in the diagram below.
 
-![Phase III: iFay Serves As The Interface With Virtual World](../images/blueprint/97818b75-5cb2-457f-8ce9-9cb74c8dcb94.png)
+![Phase III: iFay Serves As The Interface With Virtual World](../images/blueprint/phase3-architecture.png)
 
 As shown in the diagram, iFay takes control of both the client side (edge devices) and the server side (or cloud services). 
 
@@ -202,7 +202,7 @@ To enable iFay to operate independently and effectively, 2 key conditions must b
 - External: iFay and coFay must be widely adopted and capable of communicating in a shared language.
 With this foundation, an iFay can collaborate with humans, other iFays, or its dedicated coFay to autonomously execute predefined tasks.
 
-![Thinking of Phase IV](../images/blueprint/ed990727-eda1-4330-88a4-40843fa8e616.png)
+![Thinking of Phase IV](../images/blueprint/phase4-concept.png)
 
 To achieve this, we need to embed self-driving capabilities into the four core modules — Sense, Action, Skill, and Thought.
 
@@ -241,7 +241,7 @@ It can be established through three main approaches (with potential for more):
 
 <br>
 
-![Phase IV: iFay + coFay - Comprehensive Personification of Software](../images/blueprint/8bdf24c3-e5dc-4d91-8e9b-ba4807e1fb88.png)
+![Phase IV: iFay + coFay - Comprehensive Personification of Software](../images/blueprint/phase4-architecture.png)
 
 However, this alone isn’t enough for iFay to integrate into social relationships.
 To achieve that, we need to equip iFay with communication capabilities, which involve two core protocols:
@@ -278,7 +278,7 @@ We quantify social merits in a unified unit(μ, Merit Uni) and issue correspondi
 In the future, the way to obtain MeriTokens will not rely on burning computing power to complete the technical work of the blockchain, but on creating social value.
 
 
-![Thinking of Phase V](../images/blueprint/d338e848-32c0-4f3d-9fb9-d5f5982263ab.png)
+![Thinking of Phase V](../images/blueprint/phase5-concept.png)
 
 
 

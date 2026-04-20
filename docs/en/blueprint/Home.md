@@ -50,7 +50,7 @@ Just like the tycoons who first built factories, railways, and oil wells, Fays a
 ---
 
 # ⁉️ Why do I use "Fay" instead of "Agent" as the name
-![](../images/blueprint/abaa7266-6d33-4f9f-9970-3865309fdf07.png)
+![](../images/blueprint/ifay-vs-agent.png)
 
 <br>
 
@@ -72,7 +72,7 @@ iFay is a runnable intelligent agent instance that requires 3 + 1 core technical
 To incentivize both humans and Fays to make valuable contributions, there’s a fourth layer that cuts across all three layers:
 - _**Merit (M)**_: The Global Merit Chain tracks, measures, and evaluates contributions, rewarding contributors with MeriTokens. Contributions are not limited to iFays and coFays—they also include providing information assembly services, APIs, devices, runtime environments, or any other recognized value-added input.
 
-![iFay Framework Alpha 1](../images/blueprint/10312d2d-b2b9-41e3-85c9-af8fc8000efc.png)
+![iFay Framework Alpha 1](../images/blueprint/ifay-framework-alpha1.png)
 
 
 iFay itself is composed of 6 core components, structured into 4 layers (as shown in the orange part of the above diagram):

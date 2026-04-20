@@ -1,6 +1,6 @@
 Here, "Credential" is a generalized concept. For a natural person user, most of the time, the user must hold one or more tickets to have the right to use hardware or software. The following 7 types are collectively referred to as credentials (more types may be added with iterations):
 
-![Credential Management](../images/blueprint/438c8285-8499-449c-aaae-fbc88daf8460.png)
+![Credential Management](../images/blueprint/credential-management.png)
 
 - [Identity (FayID)](./Credentials-Management#identityfayid)
 - [Account / Password](./Credentials-Management#account--password)

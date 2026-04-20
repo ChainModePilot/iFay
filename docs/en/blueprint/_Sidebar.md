@@ -1,4 +1,4 @@
-<img width="100%"  alt="iFay Title Banner" src="../images/blueprint/2cd8f495-58a3-4085-a38b-164d2edfc586.png"-/>
+<img width="100%"  alt="iFay Title Banner" src="../images/blueprint/ifay-title-banner.png"-/>
 
 
 iFay (Individual Fay) is an AI avatar that integrates the user's human personality and digital capabilities.
