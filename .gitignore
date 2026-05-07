@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# But not these directories
+!docs/
+!docs/**
+!releases/
+!releases/**
+!schema/
+!schema/**
+
+# And not these essential files
+!.gitignore
+!README.md
+!LICENSE
+
+# Still ignore common artifacts within tracked dirs
+docs/**/.DS_Store
+releases/**/.DS_Store
+schema/**/.DS_Store
