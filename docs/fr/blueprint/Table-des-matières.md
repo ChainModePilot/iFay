@@ -41,31 +41,38 @@ iFay (Individual Fay) est un avatar numérique IA qui fusionne les traits de per
 
 - #### 8. Couche Sociale
 
-  - [8.1 Gestion des identifiants](./8.1-Gestion-des-identifiants)
+  - [8. Couche Sociale](./8-Couche-Sociale)
+  - [8.1 Identité (FayID)](./8-Couche-Sociale#81-identité-fayid)
+  - [8.2 Permissions Sociales](./8-Couche-Sociale#82-permissions-sociales)
+  - [8.3 Contribution Sociale & Voix](./8-Couche-Sociale#83-contribution-sociale--voix-gmchain--meritoken)
 
 - #### 9. Couche d'Interaction — Perception
 
-  - [9.1 Traceur première personne](./9.1-Traceur-première-personne)
-  - [9.2 Capteur](./9.2-Capteur)
-  - [9.3 Conscience de soi](./9.3-Conscience-de-soi)
+  - [9. Couche d'Interaction — Perception](./9-Couche-Interaction-Perception)
+  - [9.1 Traceur première personne](./9-Couche-Interaction-Perception#91-traceur-première-personne)
+  - [9.2 Capteur](./9-Couche-Interaction-Perception#92-capteur)
+  - [9.3 Conscience de soi](./9-Couche-Interaction-Perception#93-conscience-de-soi)
 
 - #### 10. Couche d'Interaction — Action
 
-  - [10.1 Opération simulée](./10.1-Opération-simulée)
-  - [10.2 Invocation de compétences](./10.2-Invocation-de-compétences)
-  - [10.3 Comportement autonome](./10.3-Comportement-autonome)
+  - [10. Couche d'Interaction — Action](./10-Couche-Interaction-Action)
+  - [10.1 Opération simulée](./10-Couche-Interaction-Action#101-opération-simulée)
+  - [10.2 Invocation de compétences](./10-Couche-Interaction-Action#102-invocation-de-compétences)
+  - [10.3 Comportement autonome](./10-Couche-Interaction-Action#103-comportement-autonome)
 
 - #### 11. Couche de Cognition — Pensée
 
-  - [11.1 Tas de données personnelles](./11.1-Tas-de-données-personnelles)
-  - [11.2 Connaissances externes](./11.2-Connaissances-externes)
-  - [11.3 Conscience alignée](./11.3-Conscience-alignée)
+  - [11. Couche de Cognition — Pensée](./11-Couche-Cognition-Pensée)
+  - [11.1 Tas de données personnelles](./11-Couche-Cognition-Pensée#111-tas-de-données-personnelles)
+  - [11.2 Connaissances externes](./11-Couche-Cognition-Pensée#112-connaissances-externes)
+  - [11.3 Conscience alignée](./11-Couche-Cognition-Pensée#113-conscience-alignée)
 
 - #### 12. Couche de Cognition — Compétences
 
-  - [12.1 Hub pilotes périphériques](./12.1-Hub-pilotes-périphériques)
-  - [12.2 Compétences enregistrées](./12.2-Compétences-enregistrées)
-  - [12.3 Compétences internes](./12.3-Compétences-internes)
+  - [12. Couche de Cognition — Compétences](./12-Couche-Cognition-Compétences)
+  - [12.1 Hub pilotes périphériques](./12-Couche-Cognition-Compétences#121-hub-pilotes-périphériques)
+  - [12.2 Compétences enregistrées](./12-Couche-Cognition-Compétences#122-compétences-enregistrées)
+  - [12.3 Compétences internes](./12-Couche-Cognition-Compétences#123-compétences-internes)
 
 - #### Couche Ego
 

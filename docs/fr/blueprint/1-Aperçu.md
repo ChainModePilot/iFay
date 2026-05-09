@@ -173,10 +173,14 @@ La documentation produit et la conception doivent permettre aux lecteurs d'imagi
 ## 🤝 Couche Sociale
 Elle s'appelle la Couche Sociale parce qu'elle gère les relations d'iFay avec les humains, les appareils, les ressources et les actifs.
 
-Cette couche définit ce qu'iFay est autorisé à faire.
-Dans les premières étapes du projet (voir [Feuille de route Phase 1](./4-Feuille-de-route.md)), son implémentation se concentre uniquement sur la [Gestion des identifiants](./8.1-Gestion-des-identifiants.md).
+Cette couche contient trois modules fondamentaux :
+- _**[Identité (FayID)](./8-Couche-Sociale#81-identité-fayid)**_ : Le numéro d'identité globalement unique d'iFay — le prérequis pour participer à toute interaction sociale.
+- _**[Permissions Sociales](./8-Couche-Sociale#82-permissions-sociales)**_ : Gère les identifiants dont iFay a besoin pour utiliser divers services en votre nom — garde de compte/mot de passe, certificats, autorisation, jetons d'accès, smart contracts. Tous les identifiants utilisent un mécanisme de copie pour garantir la sécurité des identifiants originaux.
+- _**[Contribution Sociale & Voix (GMChain / MeriToken)](./8-Couche-Sociale#83-contribution-sociale--voix-gmchain--meritoken)**_ : La Global Merit Chain enregistre chaque contribution faite par les Fays et les humains à la société, quantifiant les contributions avec MeriToken pour construire la réputation et gagner de la voix. C'est l'infrastructure clé pour l'évolution de l'écosystème iFay de « l'utilisation d'outils » à la « collaboration sociale ».
 
-> 🎯 Scénario : Vous déléguez votre compte de plateforme e-commerce à iFay. Ce qu'iFay reçoit n'est pas votre mot de passe original mais un identifiant copie sécurisé. Elle peut utiliser cette copie pour passer des commandes pour vous, mais si la copie est compromise, vous pouvez la révoquer en un clic — votre mot de passe original reste intact. C'est ce que fait la Couche Sociale — gérer les relations de confiance.
+Dans les premières étapes du projet (voir [Feuille de route Phase 1](./4-Feuille-de-route)), l'implémentation de la Couche Sociale se concentre sur FayID et les Permissions Sociales ; GMChain appartient à la vision à long terme (Phase 5), mais les définitions d'interface doivent être réservées dans les phases précoces.
+
+> 🎯 Scénario : Vous déléguez votre compte de plateforme e-commerce à iFay. Ce qu'iFay reçoit n'est pas votre mot de passe original mais un identifiant copie sécurisé. Elle peut utiliser cette copie pour passer des commandes pour vous, mais si la copie est compromise, vous pouvez la révoquer en un clic — votre mot de passe original reste intact. Quand iFay complète une collaboration avec un coFay de voyage en votre nom, GMChain enregistre automatiquement les contributions des deux parties — c'est ce que fait la Couche Sociale : gérer l'identité, gérer la confiance, enregistrer la valeur.
 
 <br>
 
@@ -190,9 +194,9 @@ Elle se compose donc de deux composants principaux :
 ### Perception (Sens)
 Considérez cette couche comme le système sensoriel d'iFay — ses yeux, ses oreilles, son toucher et son état émotionnel.
 Pour cela, nous avons besoin d'au moins 3 modules fondamentaux :
-- _**[Traceur première personne](./9.1-Traceur-première-personne.md)**_ : Simule la perspective à la première personne du Human Prime — par exemple, ce que le Human Prime voit sur l'écran ou l'interface.
-- _**[Capteur](./9.2-Capteur.md)**_ : Un concept généralisé similaire au système nerveux humain, mais avec une couverture plus large, capable de s'intégrer avec n'importe quel capteur externe.
-- _**[Conscience de soi](./9.3-Conscience-de-soi.md)**_ : Le Traceur première personne regarde vers l'extérieur, tandis que ce module regarde vers l'intérieur — surveillant les réactions du Human Prime pour inférer ses intentions, comme un assistant compétent qui lit les expressions faciales du patron.
+- _**[Traceur première personne](./9-Couche-Interaction-Perception#91-traceur-première-personne)**_ : Simule la perspective à la première personne du Human Prime — par exemple, ce que le Human Prime voit sur l'écran ou l'interface.
+- _**[Capteur](./9-Couche-Interaction-Perception#92-capteur)**_ : Un concept généralisé similaire au système nerveux humain, mais avec une couverture plus large, capable de s'intégrer avec n'importe quel capteur externe.
+- _**[Conscience de soi](./9-Couche-Interaction-Perception#93-conscience-de-soi)**_ : Le Traceur première personne regarde vers l'extérieur, tandis que ce module regarde vers l'intérieur — surveillant les réactions du Human Prime pour inférer ses intentions, comme un assistant compétent qui lit les expressions faciales du patron.
 
 > 🎯 Scénario : Vous fixez un tableau complexe à l'écran et froncez légèrement les sourcils. Le Traceur première personne voit le contenu du tableau, le module de Conscience de soi capte votre froncement — iFay détermine que vous pourriez avoir besoin d'aide pour comprendre les données et génère proactivement un résumé visuel.
 

@@ -1,0 +1,110 @@
+# 12. Couche de Cognition — Compétences
+
+Le sous-système de Compétences de la Couche de Cognition est la « bibliothèque de capacités » d'iFay — il gère les pilotes matériels, les skills enregistrés et les capacités inhérentes.
+
+
+---
+
+## 12.1 Hub pilotes périphériques
+
+## Définition en une ligne
+
+Le Hub pilotes périphériques est les **nerfs moteurs** d'iFay — si le matériel est les « membres » d'iFay, le Hub pilotes périphériques est le système nerveux moteur connectant le cerveau aux membres. Il garantit qu'iFay peut correctement contrôler divers appareils matériels, et que de nouveaux appareils peuvent être connectés sans avoir besoin de « réapprendre à marcher ».
+
+## Pourquoi c'est nécessaire
+
+Imaginez votre corps : votre cerveau veut prendre une tasse sur la table, et il n'a pas besoin de savoir comment chaque fibre de vos muscles du bras se contracte — les nerfs moteurs traduisent l'intention « prendre la tasse » en commandes musculaires précises. Mieux encore, quand vous apprenez à faire du vélo, votre cerveau n'a pas besoin de réapprendre à marcher — les nouvelles compétences motrices sont « superposées » aux voies neurales existantes sans détruire les capacités existantes.
+
+iFay fait face à la même situation avec le monde matériel. Ampoules intelligentes, climatiseurs, rideaux, aspirateurs robots, drones… chaque appareil a son propre « langage » et sa méthode de contrôle. Si iFay devait restructurer ses internes à chaque fois qu'un nouvel appareil est connecté, ce serait aussi absurde que de devoir réapprendre à marcher chaque fois que vous apprenez un nouveau mouvement.
+
+Le Hub pilotes périphériques résout exactement ce problème. C'est une **couche hub**, pas un programme de pilote spécifique ni une simple collection de pilotes. Il fournit une interface standardisée qui permet à tout nouveau pilote de périphérique de se brancher de manière transparente, tandis que les autres modules d'iFay restent complètement inconscients du changement.
+
+## Sa position dans l'architecture
+
+```
+Architecture à quatre couches d'iFay
+├── Couche Sociale
+├── Couche d'Interaction
+│   ├── Sens
+│   │   ├── Capteur              ← Perçoit les données environnementales ; interface matérielle gérée par le Hub
+│   │   └── ...
+│   └── Action
+│       ├── Invocation de compétences  ← L'invocation peut nécessiter le contrôle de matériel
+│       └── ...
+├── Couche de Cognition          ← Le Hub pilotes périphériques est ici
+│   ├── Pensée
+│   │   └── ...
+│   └── Compétences
+│       ├── 👉 Hub pilotes périphériques  ← « Nerfs moteurs » pour tout le matériel
+│       ├── Compétences enregistrées
+│       └── Compétences internes
+└── Couche Ego
+    └── Modèle Ego
+```
+
+Le Hub pilotes périphériques se situe dans le **sous-système de Compétences de la Couche de Cognition**. Il fournit des capacités de contrôle matériel vers le haut aux modules Capteur et Action de la Couche d'Interaction, et vers le bas appelle les pilotes matériels des terminaux, interfaces locales et commandes via **CAP (Protocole d'autorité de contrôle)**.
+
+## Comment ça fonctionne
+
+Le fonctionnement du Hub pilotes périphériques peut être résumé en trois mots-clés : **Standardisé, Transparent, Dégradation gracieuse**.
+
+**1. Standardisé — Contrat d'interface unifié**
+
+Qu'il s'agisse d'une ampoule intelligente ou d'un bras robotique industriel, chaque pilote de périphérique doit suivre la même spécification d'interface lors de la connexion. Le Hub définit des interfaces standard d'enregistrement, d'invocation et de requête de statut.
+
+**2. Transparent — Complètement transparent pour les autres modules**
+
+Quand un nouveau pilote de périphérique est ajouté à iFay, les autres modules d'iFay (Capteur, Invocation de compétences, Comportement autonome, etc.) n'ont besoin d'aucune modification. Le Hub « absorbe » toutes les différences matérielles, n'exposant qu'une interface unifiée vers l'extérieur.
+
+**3. Dégradation gracieuse — L'échec d'un pilote ne fait pas planter iFay**
+
+Si un pilote de périphérique échoue à se charger ou qu'un appareil se déconnecte, le Hub ne laissera pas l'ensemble d'iFay être paralysé à cause de cela. Il signalera le statut d'indisponibilité du pilote, fournira des suggestions de dégradation, et le contrôle des autres appareils restera complètement non affecté.
+
+## Relations avec les autres modules
+
+| Module associé | Relation | Analogie corporelle |
+|----------------|----------|---------------------|
+| **Capteur** | Les interfaces matérielles réelles du Capteur sont gérées par le Hub pilotes périphériques | Signaux des terminaisons nerveuses transmis via les nerfs moteurs |
+| **Invocation de compétences** | Quand l'Invocation exécute des tâches liées au matériel, elle contrôle les appareils via le Hub | Le cerveau émet une commande → les nerfs moteurs exécutent |
+| **Tas de données personnelles** | Les données générées par les appareils sont collectées via le Hub et finalement stockées dans le Tas | Signaux sensoriels → stockage en mémoire |
+| **Protocole CAP** | Le Hub obtient les permissions de contrôle matériel via le Protocole CAP | « Canal d'autorisation » des nerfs moteurs |
+| **Compétences enregistrées** | Certaines Compétences enregistrées nécessitent des capacités matérielles, obtenues indirectement via le Hub | Les compétences apprises nécessitent les nerfs moteurs pour s'exécuter |
+
+## Histoires de scénarios
+
+### Scénario 1 : iFay contrôle la maison intelligente
+
+À 20h, vous dites à iFay : « Mets ma maison en mode cinéma. »
+
+iFay comprend votre intention, puis contrôle simultanément de multiples appareils via le Hub pilotes périphériques :
+
+- **Pilote d'ampoule intelligente** : Baisse les lumières du salon à 20%, passe la température de couleur en jaune chaud
+- **Pilote de climatiseur** : Règle la température à 24°C, réduit la vitesse du ventilateur au minimum (mode silencieux)
+- **Pilote de rideau intelligent** : Ferme les rideaux pour bloquer la lumière extérieure
+- **Pilote de projecteur** : Allume le projecteur, passe à la source d'entrée HDMI
+
+Ces quatre appareils sont de marques différentes, utilisant différents protocoles de communication (WiFi, Bluetooth, Zigbee), mais iFay n'a pas besoin de connaître ces différences. Le Hub pilotes périphériques masque toute la complexité.
+
+### Scénario 2 : Nouvel aspirateur robot — plug and play
+
+Vous achetez un nouvel aspirateur robot et le ramenez à la maison. Après l'avoir connecté à votre réseau domestique, iFay découvre le nouveau matériel via le terminal.
+
+Ce qui se passe ensuite est presque imperceptible pour vous :
+
+1. Le terminal scanne le nouvel aspirateur robot et rapporte ses informations à iFay
+2. Le Hub pilotes périphériques charge automatiquement le pilote de l'aspirateur robot (enregistré via l'interface standardisée)
+3. Une fois l'enregistrement du pilote complet, iFay gagne immédiatement la capacité de contrôler l'aspirateur robot
+
+Vous n'avez besoin de faire aucune configuration dans iFay. Le lendemain matin quand vous partez au travail, le module de Comportement autonome d'iFay détermine « le Human Prime est parti, bon moment pour nettoyer », et démarre l'aspirateur robot via le Hub pilotes périphériques.
+
+## Pour les développeurs
+
+Le Hub pilotes périphériques appartient à la **Phase 2 (Prise de contrôle directe du client)** comme module fondamental, dépendant du Protocole CAP.
+
+- **ID d'exigence** : Exigence 8 (Hub pilotes périphériques)
+- **Spécification d'interface** : Interface `DeviceDriverHub` avec quatre méthodes fondamentales : `registerDriver()` (enregistrer pilote), `invokeDevice()` (invoquer appareil), `getDriverStatus()` (requête de statut), et `unregisterDriver()` (désenregistrer pilote)
+- **États des pilotes** : `loaded`, `active`, `error`, `unavailable`
+- **Protocole associé** : CAP (Protocole d'autorité de contrôle) pour appeler directement les pilotes matériels des terminaux, interfaces locales et commandes
+- **Modules associés** : Capteur (`SensorModule`) dont les interfaces matérielles sont gérées par le Hub, Tas de données personnelles (`PersonalDataHeap`) stocke les données des appareils
+- **Notes de conception** : Le Hub est une couche hub, pas un pilote unique ou une collection de pilotes ; les interfaces standardisées garantissent que l'intégration de nouveaux pilotes est transparente pour les autres modules ; fournit des suggestions de dégradation plutôt qu'un crash système quand le chargement d'un pilote échoue
+- **Tests de conformité** : iFACTS L1 valide les capacités d'enregistrement et d'invocation de pilotes, L2 valide l'intégration d'interface avec le Capteur et le Tas de données personnelles, L4 valide le comportement de dégradation quand les pilotes échouent

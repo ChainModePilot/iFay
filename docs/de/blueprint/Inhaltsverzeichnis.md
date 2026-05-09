@@ -41,31 +41,38 @@ iFay (Individual Fay) ist ein digitaler KI-Avatar, der die Persönlichkeitsmerkm
 
 - #### 8. Soziale Schicht
 
-  - [8.1 Anmeldeinformationen-Verwaltung](./8.1-Anmeldeinformationen-Verwaltung)
+  - [8. Soziale Schicht](./8-Soziale-Schicht)
+  - [8.1 Identität (FayID)](./8-Soziale-Schicht#81-identität-fayid)
+  - [8.2 Soziale Berechtigungen](./8-Soziale-Schicht#82-soziale-berechtigungen)
+  - [8.3 Sozialer Beitrag & Mitspracherecht](./8-Soziale-Schicht#83-sozialer-beitrag--mitspracherecht-gmchain--meritoken)
 
 - #### 9. Interaktionsschicht — Wahrnehmung
 
-  - [9.1 Ego-Perspektive-Tracker](./9.1-Ego-Perspektive-Tracker)
-  - [9.2 Sensor](./9.2-Sensor)
-  - [9.3 Selbstwahrnehmung](./9.3-Selbstwahrnehmung)
+  - [9. Interaktionsschicht — Wahrnehmung](./9-Interaktionsschicht-Wahrnehmung)
+  - [9.1 Ego-Perspektive-Tracker](./9-Interaktionsschicht-Wahrnehmung#91-ego-perspektive-tracker)
+  - [9.2 Sensor](./9-Interaktionsschicht-Wahrnehmung#92-sensor)
+  - [9.3 Selbstwahrnehmung](./9-Interaktionsschicht-Wahrnehmung#93-selbstwahrnehmung)
 
 - #### 10. Interaktionsschicht — Aktion
 
-  - [10.1 Simulierte Bedienung](./10.1-Simulierte-Bedienung)
-  - [10.2 Skill-Aufruf](./10.2-Skill-Aufruf)
-  - [10.3 Selbstgesteuertes Verhalten](./10.3-Selbstgesteuertes-Verhalten)
+  - [10. Interaktionsschicht — Aktion](./10-Interaktionsschicht-Aktion)
+  - [10.1 Simulierte Bedienung](./10-Interaktionsschicht-Aktion#101-simulierte-bedienung)
+  - [10.2 Skill-Aufruf](./10-Interaktionsschicht-Aktion#102-skill-aufruf)
+  - [10.3 Selbstgesteuertes Verhalten](./10-Interaktionsschicht-Aktion#103-selbstgesteuertes-verhalten)
 
 - #### 11. Kognitionsschicht — Denken
 
-  - [11.1 Persönlicher Datenspeicher](./11.1-Persönlicher-Datenspeicher)
-  - [11.2 Externes Wissen](./11.2-Externes-Wissen)
-  - [11.3 Ausgerichtetes Bewusstsein](./11.3-Ausgerichtetes-Bewusstsein)
+  - [11. Kognitionsschicht — Denken](./11-Kognitionsschicht-Denken)
+  - [11.1 Persönlicher Datenspeicher](./11-Kognitionsschicht-Denken#111-persönlicher-datenspeicher)
+  - [11.2 Externes Wissen](./11-Kognitionsschicht-Denken#112-externes-wissen)
+  - [11.3 Ausgerichtetes Bewusstsein](./11-Kognitionsschicht-Denken#113-ausgerichtetes-bewusstsein)
 
 - #### 12. Kognitionsschicht — Skills
 
-  - [12.1 Gerätetreiber-Hub](./12.1-Gerätetreiber-Hub)
-  - [12.2 Registrierte Skills](./12.2-Registrierte-Skills)
-  - [12.3 Interne Skills](./12.3-Interne-Skills)
+  - [12. Kognitionsschicht — Skills](./12-Kognitionsschicht-Skills)
+  - [12.1 Gerätetreiber-Hub](./12-Kognitionsschicht-Skills#121-gerätetreiber-hub)
+  - [12.2 Registrierte Skills](./12-Kognitionsschicht-Skills#122-registrierte-skills)
+  - [12.3 Interne Skills](./12-Kognitionsschicht-Skills#123-interne-skills)
 
 - #### Ego-Schicht
 

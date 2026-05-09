@@ -173,10 +173,14 @@ La documentación del producto y el diseño deben permitir a los lectores imagin
 ## 🤝 Capa Social
 Se llama Capa Social porque gestiona las relaciones de iFay con humanos, dispositivos, recursos y activos.
 
-Esta capa define lo que iFay está autorizado a hacer.
-En las etapas iniciales del proyecto (ver [Hoja de ruta Fase 1](./4-Hoja-de-ruta)), su implementación se centra únicamente en la [Gestión de Credenciales](./8.1-Gestión-de-credenciales).
+Esta capa contiene tres módulos centrales:
+- _**[Identidad (FayID)](./8-Capa-Social#81-identidad-fayid)**_: El número de identidad globalmente único de iFay — el prerrequisito para participar en cualquier interacción social.
+- _**[Permisos Sociales](./8-Capa-Social#82-permisos-sociales)**_: Gestiona las credenciales que iFay necesita para usar varios servicios en tu nombre — custodia de cuenta/contraseña, certificados, autorización, tokens de acceso, smart contracts. Todas las credenciales usan un mecanismo de copia para garantizar la seguridad de las credenciales originales.
+- _**[Contribución Social y Voz (GMChain / MeriToken)](./8-Capa-Social#83-contribución-social-y-voz-gmchain--meritoken)**_: La Global Merit Chain registra cada contribución hecha por Fays y humanos a la sociedad, cuantificando contribuciones con MeriToken para construir reputación y ganar voz. Esta es la infraestructura clave para la evolución del ecosistema iFay de "uso de herramientas" a "colaboración social".
 
-> 🎯 Escenario: Delegas tu cuenta de plataforma de comercio electrónico a iFay. Lo que iFay recibe no es tu contraseña original sino una credencial de copia segura. Puede usar esta copia para hacer pedidos por ti, pero si la copia se ve comprometida, puedes revocarla con un clic — tu contraseña original no se ve afectada. Esto es lo que hace la Capa Social — gestionar relaciones de confianza.
+En las etapas iniciales del proyecto (ver [Hoja de ruta Fase 1](./4-Hoja-de-ruta)), la implementación de la Capa Social se centra en FayID y Permisos Sociales; GMChain pertenece a la visión a largo plazo (Fase 5), pero las definiciones de interfaz necesitan ser reservadas en fases tempranas.
+
+> 🎯 Escenario: Delegas tu cuenta de plataforma de comercio electrónico a iFay. Lo que iFay recibe no es tu contraseña original sino una credencial de copia segura. Puede usar esta copia para hacer pedidos por ti, pero si la copia se ve comprometida, puedes revocarla con un clic — tu contraseña original no se ve afectada. Cuando iFay completa una colaboración con un coFay de viajes en tu nombre, GMChain registra automáticamente las contribuciones de ambas partes — esto es lo que hace la Capa Social: gestionar identidad, gestionar confianza, registrar valor.
 
 <br>
 
@@ -190,9 +194,9 @@ Por lo tanto, consta de dos componentes principales:
 ### Percepción (Sentido)
 Piensa en esta capa como el sistema sensorial de iFay — sus ojos, oídos, tacto y estado emocional.
 Para esto, necesitamos al menos 3 módulos centrales:
-- _**[Rastreador en primera persona](./9.1-Rastreador-en-primera-persona)**_: Simula la perspectiva en primera persona del Human Prime — por ejemplo, lo que el Human Prime ve en la pantalla o interfaz.
-- _**[Sensor](./9.2-Sensor)**_: Un concepto generalizado similar al sistema nervioso humano, pero con cobertura más amplia, capaz de integrarse con cualquier sensor externo.
-- _**[Autoconciencia](./9.3-Autoconciencia)**_: El Rastreador en primera persona mira hacia afuera, mientras que este módulo mira hacia adentro — monitoreando las reacciones del Human Prime para inferir intención, como un asistente hábil que lee las expresiones faciales del jefe.
+- _**[Rastreador en primera persona](./9-Capa-Interacción-Percepción#91-rastreador-en-primera-persona)**_: Simula la perspectiva en primera persona del Human Prime — por ejemplo, lo que el Human Prime ve en la pantalla o interfaz.
+- _**[Sensor](./9-Capa-Interacción-Percepción#92-sensor)**_: Un concepto generalizado similar al sistema nervioso humano, pero con cobertura más amplia, capaz de integrarse con cualquier sensor externo.
+- _**[Autoconciencia](./9-Capa-Interacción-Percepción#93-autoconciencia)**_: El Rastreador en primera persona mira hacia afuera, mientras que este módulo mira hacia adentro — monitoreando las reacciones del Human Prime para inferir intención, como un asistente hábil que lee las expresiones faciales del jefe.
 
 > 🎯 Escenario: Estás mirando fijamente una tabla compleja en la pantalla y frunces ligeramente el ceño. El Rastreador en primera persona ve el contenido de la tabla, el módulo de Autoconciencia capta tu ceño fruncido — iFay determina que podrías necesitar ayuda para entender los datos y genera proactivamente un resumen visual.
 

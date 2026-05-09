@@ -173,10 +173,14 @@ Produktdokumentation und Design müssen es den Lesern ermöglichen, sich intuiti
 ## 🤝 Soziale Schicht
 Sie heißt Soziale Schicht, weil sie iFays Beziehungen zu Menschen, Geräten, Ressourcen und Vermögenswerten verwaltet.
 
-Diese Schicht definiert, wozu iFay autorisiert ist.
-In den frühen Phasen des Projekts (siehe [Roadmap Phase 1](./4-Roadmap.md)) konzentriert sich ihre Implementierung ausschließlich auf die [Anmeldeinformationen-Verwaltung](./8.1-Anmeldeinformationen-Verwaltung.md).
+Diese Schicht enthält drei Kernmodule:
+- _**[Identität (FayID)](./8-Soziale-Schicht#81-identität-fayid)**_: iFays global eindeutige Identitätsnummer — die Voraussetzung für die Teilnahme an jeder sozialen Interaktion.
+- _**[Soziale Berechtigungen](./8-Soziale-Schicht#82-soziale-berechtigungen)**_: Verwaltet die Anmeldeinformationen, die iFay benötigt, um verschiedene Dienste in deinem Namen zu nutzen — Konto/Passwort-Verwaltung, Zertifikate, Autorisierung, Zugriffstoken, Smart Contracts. Alle Anmeldeinformationen verwenden einen Kopiermechanismus, um die Sicherheit der Originale zu gewährleisten.
+- _**[Sozialer Beitrag & Mitspracherecht (GMChain / MeriToken)](./8-Soziale-Schicht#83-sozialer-beitrag--mitspracherecht-gmchain--meritoken)**_: Die Global Merit Chain zeichnet jeden Beitrag auf, den Fays und Menschen für die Gesellschaft leisten, quantifiziert Beiträge mit MeriToken, um Reputation aufzubauen und Mitspracherecht zu erlangen. Dies ist die Schlüsselinfrastruktur für die Evolution des iFay-Ökosystems von „Werkzeugnutzung" zu „sozialer Zusammenarbeit".
 
-> 🎯 Szenario: Du delegierst dein E-Commerce-Plattform-Konto an iFay. Was iFay erhält, ist nicht dein Originalpasswort, sondern eine sichere Kopie der Anmeldeinformationen. Sie kann diese Kopie verwenden, um Bestellungen für dich aufzugeben, aber wenn die Kopie kompromittiert wird, kannst du sie mit einem Klick widerrufen — dein Originalpasswort bleibt unberührt. Das ist es, was die Soziale Schicht tut — Vertrauensbeziehungen verwalten.
+In den frühen Phasen des Projekts (siehe [Roadmap Phase 1](./4-Roadmap)) konzentriert sich die Implementierung der Sozialen Schicht auf FayID und Soziale Berechtigungen; GMChain gehört zur langfristigen Vision (Phase 5), aber Schnittstellendefinitionen müssen in frühen Phasen vorbehalten werden.
+
+> 🎯 Szenario: Du delegierst dein E-Commerce-Plattform-Konto an iFay. Was iFay erhält, ist nicht dein Originalpasswort, sondern eine sichere Kopie der Anmeldeinformationen. Sie kann diese Kopie verwenden, um Bestellungen für dich aufzugeben, aber wenn die Kopie kompromittiert wird, kannst du sie mit einem Klick widerrufen — dein Originalpasswort bleibt unberührt. Wenn iFay eine Zusammenarbeit mit einer Reise-coFay in deinem Namen abschließt, zeichnet GMChain automatisch die Beiträge beider Seiten auf — das ist es, was die Soziale Schicht tut: Identität verwalten, Vertrauen verwalten, Wert aufzeichnen.
 
 <br>
 
@@ -190,17 +194,17 @@ Daher besteht sie aus zwei Hauptkomponenten:
 ### Wahrnehmung (Sense)
 Betrachte diese Schicht als iFays Sinnessystem — ihre Augen, Ohren, Tastsinn und emotionaler Zustand.
 Dafür brauchen wir mindestens 3 Kernmodule:
-- _**[Ego-Perspektive-Tracker](./9.1-Ego-Perspektive-Tracker.md)**_: Simuliert die Ego-Perspektive des Human Prime — zum Beispiel, was der Human Prime auf dem Bildschirm oder der Oberfläche sieht.
-- _**[Sensor](./9.2-Sensor.md)**_: Ein verallgemeinertes Konzept ähnlich dem menschlichen Nervensystem, aber mit breiterer Abdeckung, fähig zur Integration mit jedem externen Sensor.
-- _**[Selbstwahrnehmung](./9.3-Selbstwahrnehmung.md)**_: Der Ego-Perspektive-Tracker schaut nach außen, während dieses Modul nach innen schaut — es überwacht die Reaktionen des Human Prime, um Absichten abzuleiten, wie ein geschickter Assistent, der die Gesichtsausdrücke des Chefs liest.
+- _**[Ego-Perspektive-Tracker](./9-Interaktionsschicht-Wahrnehmung#91-ego-perspektive-tracker)**_: Simuliert die Ego-Perspektive des Human Prime — zum Beispiel, was der Human Prime auf dem Bildschirm oder der Oberfläche sieht.
+- _**[Sensor](./9-Interaktionsschicht-Wahrnehmung#92-sensor)**_: Ein verallgemeinertes Konzept ähnlich dem menschlichen Nervensystem, aber mit breiterer Abdeckung, fähig zur Integration mit jedem externen Sensor.
+- _**[Selbstwahrnehmung](./9-Interaktionsschicht-Wahrnehmung#93-selbstwahrnehmung)**_: Der Ego-Perspektive-Tracker schaut nach außen, während dieses Modul nach innen schaut — es überwacht die Reaktionen des Human Prime, um Absichten abzuleiten, wie ein geschickter Assistent, der die Gesichtsausdrücke des Chefs liest.
 
 > 🎯 Szenario: Du starrst auf eine komplexe Tabelle auf dem Bildschirm und runzelst leicht die Stirn. Der Ego-Perspektive-Tracker sieht den Tabelleninhalt, das Selbstwahrnehmungsmodul erfasst dein Stirnrunzeln — iFay bestimmt, dass du möglicherweise Hilfe beim Verstehen der Daten brauchst und generiert proaktiv eine visuelle Zusammenfassung.
 
 ### Aktion
 Betrachte diese Schicht als iFays motorisches System — ihre Hände, Füße, Mund usw. Dadurch kann iFay Hardware und Software steuern. Sie enthält mindestens drei Module:
-- _**[Simulierte Bedienung](./10.1-Simulierte-Bedienung.md)**_: Simuliert die Bedienungen des Menschen und stellt sicher, dass iFay bei Bedarf traditionelle Oberflächen wie ein Mensch bedienen kann.
-- _**[Skill-Aufruf](./10.2-Skill-Aufruf.md)**_: Löst direkt bestimmte Skills aus oder führt Aufgaben aus, ähnlich wie Funktionsaufrufe oder API-Aufrufe.
-- _**[Selbstgesteuertes Verhalten](./10.3-Selbstgesteuertes-Verhalten.md)**_: Repräsentiert werkzeugfreie Aktionen, wie Laufen oder Liegestütze — analog zu geplanten Aufgaben oder zeitgesteuerten Operationen im Systemdesign.
+- _**[Simulierte Bedienung](./10-Interaktionsschicht-Aktion#101-simulierte-bedienung)**_: Simuliert die Bedienungen des Menschen und stellt sicher, dass iFay bei Bedarf traditionelle Oberflächen wie ein Mensch bedienen kann.
+- _**[Skill-Aufruf](./10-Interaktionsschicht-Aktion#102-skill-aufruf)**_: Löst direkt bestimmte Skills aus oder führt Aufgaben aus, ähnlich wie Funktionsaufrufe oder API-Aufrufe.
+- _**[Selbstgesteuertes Verhalten](./10-Interaktionsschicht-Aktion#103-selbstgesteuertes-verhalten)**_: Repräsentiert werkzeugfreie Aktionen, wie Laufen oder Liegestütze — analog zu geplanten Aufgaben oder zeitgesteuerten Operationen im Systemdesign.
 
 > 🎯 Szenario: Du bittest iFay, ein Formular auf einer veralteten Behördenwebsite auszufüllen. Diese Seite hat keine API, keine iFay-Integration — kein Problem. Das Modul Simulierte Bedienung lässt iFay wie ein Mensch klicken, tippen und absenden, wobei sie die Oberfläche adaptiv durch visuelles Feedback des Ego-Perspektive-Trackers erkundet. Keine Skripte nötig, keine Website-Modifikationen erforderlich.
 
@@ -210,14 +214,14 @@ Betrachte diese Schicht als iFays motorisches System — ihre Hände, Füße, Mu
 Diese Schicht definiert, was iFay versteht, sich merkt, weiß und kann.
 
 ### Denken (Thought)
-Diese Schicht repräsentiert iFays kognitive Fähigkeiten. Sie enthält die Daten des Human Prime und iFays persönliche Daten als langfristigen persistenten Speicher. Ihre Kernmodule umfassen [Persönlicher Datenspeicher](./11.1-Persönlicher-Datenspeicher.md), [Externes Wissen](./11.2-Externes-Wissen.md) und [Ausgerichtetes Bewusstsein](./11.3-Ausgerichtetes-Bewusstsein.md).
+Diese Schicht repräsentiert iFays kognitive Fähigkeiten. Sie enthält die Daten des Human Prime und iFays persönliche Daten als langfristigen persistenten Speicher. Ihre Kernmodule umfassen [Persönlicher Datenspeicher](./11-Kognitionsschicht-Denken#111-persönlicher-datenspeicher), [Externes Wissen](./11-Kognitionsschicht-Denken#112-externes-wissen) und [Ausgerichtetes Bewusstsein](./11-Kognitionsschicht-Denken#113-ausgerichtetes-bewusstsein).
 
 Sie umfasst auch externe Wissensquellen — betrachte diese als Informationen, die eine Person wissen sollte, aber vergessen hat oder nie vollständig gelernt hat. iFay bietet Mechanismen, um dieses Wissen wiederherzustellen und zu integrieren.
 
 > 🎯 Szenario: Du hast vor drei Jahren Kyoto besucht, viele Fotos gemacht und einige Notizen geschrieben. Jetzt fragt ein Freund dich nach Restaurantempfehlungen in Kyoto, aber du kannst dich nicht erinnern. Deine iFay erinnert sich — sie findet deine Fotos, Bewertungen und Standortdaten von damals im Persönlichen Datenspeicher und berücksichtigt sogar deine aktuellen Geschmackspräferenzen, um aktualisierte Empfehlungen zu geben.
 
 ### Skills
-Repräsentiert Fähigkeiten, Expertise und Berechtigungen. Die Kernmodule umfassen [Gerätetreiber-Hub](./12.1-Gerätetreiber-Hub.md), [Registrierte Skills](./12.2-Registrierte-Skills.md) und [Interne Skills](./12.3-Interne-Skills.md).
+Repräsentiert Fähigkeiten, Expertise und Berechtigungen. Die Kernmodule umfassen [Gerätetreiber-Hub](./12-Kognitionsschicht-Skills#121-gerätetreiber-hub), [Registrierte Skills](./12-Kognitionsschicht-Skills#122-registrierte-skills) und [Interne Skills](./12-Kognitionsschicht-Skills#123-interne-skills).
 
 Eine wichtige Unterscheidung:
 - Skill = was iFay *kann*

@@ -173,10 +173,14 @@ Product documentation and design must let readers intuitively imagine life and w
 ## 🤝 Social Layer
 It's called the Social Layer because it manages iFay's relationships with humans, devices, resources, and assets.
 
-This layer defines what iFay is authorized to do.
-In the early stages of the project (see [Roadmap Phase 1](./4-Roadmap.md)), its implementation focuses solely on [Credentials Management](./8.1-Credentials-Management.md).
+This layer contains three core modules:
+- _**[Identity (FayID)](./8-Social-Layer#81-identity-fayid)**_: iFay's globally unique identity number — the prerequisite for participating in any social interaction.
+- _**[Social Permissions](./8-Social-Layer#82-social-permissions)**_: Manages the credentials iFay needs to use various services on your behalf — account/password custody, certificates, authorization, access tokens, smart contracts. All credentials use a copy mechanism to ensure original credential safety.
+- _**[Social Contribution & Voice (GMChain / MeriToken)](./8-Social-Layer#83-social-contribution--voice-gmchain--meritoken)**_: The Global Merit Chain records every contribution made by Fays and humans to society, quantifying contributions with MeriToken to build reputation and earn voice. This is the key infrastructure for the iFay ecosystem's evolution from "tool usage" to "social collaboration."
 
-> 🎯 Scenario: You delegate your e-commerce platform account to iFay. What iFay receives is not your original password but a secure copy credential. She can use this copy to place orders for you, but if the copy is compromised, you can revoke it with one click — your original password remains unaffected. This is what the Social Layer does — managing trust relationships.
+In the early stages of the project (see [Roadmap Phase 1](./4-Roadmap)), the Social Layer implementation focuses on FayID and Social Permissions; GMChain belongs to the long-term vision (Phase 5), but interface definitions need to be reserved in early phases.
+
+> 🎯 Scenario: You delegate your e-commerce platform account to iFay. What iFay receives is not your original password but a secure copy credential. She can use this copy to place orders for you, but if the copy is compromised, you can revoke it with one click — your original password remains unaffected. When iFay completes a collaboration with a travel coFay on your behalf, GMChain automatically records both parties' contributions — this is what the Social Layer does: managing identity, managing trust, recording value.
 
 <br>
 
@@ -190,17 +194,17 @@ Therefore, it consists of two main components:
 ### Perception (Sense)
 Think of this layer as iFay's sensory system — its eyes, ears, touch, and emotional state.
 For this, we need at least 3 core modules:
-- _**[First-person Tracer](./9.1-First-person-Tracer.md)**_: Simulates the Human Prime's first-person perspective — for example, what the Human Prime sees on the screen or interface.
-- _**[Sensor](./9.2-Sensor.md)**_: A generalized concept similar to the human nervous system, but with broader coverage, capable of integrating with any external sensor.
-- _**[Self-awareness](./9.3-Self-awareness.md)**_: The First-person Tracer looks outward, while this module looks inward — monitoring the Human Prime's reactions to infer intent, like a skilled assistant reading the boss's facial expressions.
+- _**[First-person Tracer](./9-Interaction-Layer-Perception#91-first-person-tracer)**_: Simulates the Human Prime's first-person perspective — for example, what the Human Prime sees on the screen or interface.
+- _**[Sensor](./9-Interaction-Layer-Perception#92-sensor)**_: A generalized concept similar to the human nervous system, but with broader coverage, capable of integrating with any external sensor.
+- _**[Self-awareness](./9-Interaction-Layer-Perception#93-self-awareness)**_: The First-person Tracer looks outward, while this module looks inward — monitoring the Human Prime's reactions to infer intent, like a skilled assistant reading the boss's facial expressions.
 
 > 🎯 Scenario: You're staring at a complex table on screen and frown slightly. The First-person Tracer sees the table content, the Self-awareness module catches your frown — iFay determines you might need help understanding the data and proactively generates a visual summary.
 
 ### Action
 Think of this layer as iFay's motor system — its hands, feet, mouth, etc. Through it, iFay can control hardware and software. It contains at least three modules:
-- _**[Simulated Operation](./10.1-Simulated-Operation.md)**_: Simulates the human's operations, ensuring iFay can operate traditional interfaces like a human when needed.
-- _**[Invoke Skill](./10.2-Invoke-Skill.md)**_: Directly triggers specific skills or executes tasks, similar to function calls or API calls.
-- _**[Self-driven Behavior](./10.3-Self-driven-Behavior.md)**_: Represents tool-free actions, like running or doing push-ups — analogous to scheduled tasks or time-triggered operations in system design.
+- _**[Simulated Operation](./10-Interaction-Layer-Action#101-simulated-operation)**_: Simulates the human's operations, ensuring iFay can operate traditional interfaces like a human when needed.
+- _**[Invoke Skill](./10-Interaction-Layer-Action#102-invoke-skill)**_: Directly triggers specific skills or executes tasks, similar to function calls or API calls.
+- _**[Self-driven Behavior](./10-Interaction-Layer-Action#103-self-driven-behavior)**_: Represents tool-free actions, like running or doing push-ups — analogous to scheduled tasks or time-triggered operations in system design.
 
 > 🎯 Scenario: You ask iFay to fill out a form on an outdated government website. This site has no API, no iFay integration — no problem. The Simulated Operation module lets iFay click, type, and submit like a human, adaptively exploring the interface through visual feedback from the First-person Tracer. No scripts needed, no website modifications required.
 
@@ -210,14 +214,14 @@ Think of this layer as iFay's motor system — its hands, feet, mouth, etc. Thro
 This layer defines what iFay understands, remembers, knows, and can do.
 
 ### Thinking (Thought)
-This layer represents iFay's cognitive capabilities. It contains the Human Prime's data and iFay's personal data as long-term persistent memory. Its core modules include [Personal Data Heap](./11.1-Personal-Data-Heap.md), [External Knowledge](./11.2-External-Knowledge.md), and [Aligned Consciousness](./11.3-Aligned-Consciousness.md).
+This layer represents iFay's cognitive capabilities. It contains the Human Prime's data and iFay's personal data as long-term persistent memory. Its core modules include [Personal Data Heap](./11-Cognition-Layer-Thinking#111-personal-data-heap), [External Knowledge](./11-Cognition-Layer-Thinking#112-external-knowledge), and [Aligned Consciousness](./11-Cognition-Layer-Thinking#113-aligned-consciousness).
 
 It also includes external knowledge sources — think of these as information a person should know but has forgotten or never fully learned. iFay provides mechanisms to recover and integrate this knowledge.
 
 > 🎯 Scenario: You visited Kyoto three years ago, took many photos, and wrote some notes. Now a friend asks you to recommend restaurants in Kyoto, but you can't remember. Your iFay remembers — she finds your photos, reviews, and location data from back then in the Personal Data Heap, and even factors in your current taste preferences to give updated recommendations.
 
 ### Skills
-Represents capabilities, expertise, and permissions. Its core modules include [Device Driver Hub](./12.1-Device-Driver-Hub.md), [Registered Skill](./12.2-Registered-Skill.md), and [Internal Skill](./12.3-Internal-Skill.md).
+Represents capabilities, expertise, and permissions. Its core modules include [Device Driver Hub](./12-Cognition-Layer-Skills#121-device-driver-hub), [Registered Skill](./12-Cognition-Layer-Skills#122-registered-skill), and [Internal Skill](./12-Cognition-Layer-Skills#123-internal-skill).
 
 An important distinction:
 - Skill = what iFay *can* do

@@ -41,31 +41,38 @@ iFay (Individual Fay) es un avatar digital de IA que fusiona los rasgos de perso
 
 - #### 8. Capa Social
 
-  - [8.1 Gestión de Credenciales](./8.1-Gestión-de-credenciales)
+  - [8. Capa Social](./8-Capa-Social)
+  - [8.1 Identidad (FayID)](./8-Capa-Social#81-identidad-fayid)
+  - [8.2 Permisos Sociales](./8-Capa-Social#82-permisos-sociales)
+  - [8.3 Contribución Social y Voz](./8-Capa-Social#83-contribución-social-y-voz-gmchain--meritoken)
 
 - #### 9. Capa de Interacción — Percepción
 
-  - [9.1 Rastreador en primera persona](./9.1-Rastreador-en-primera-persona)
-  - [9.2 Sensor](./9.2-Sensor)
-  - [9.3 Autoconciencia](./9.3-Autoconciencia)
+  - [9. Capa de Interacción — Percepción](./9-Capa-Interacción-Percepción)
+  - [9.1 Rastreador en primera persona](./9-Capa-Interacción-Percepción#91-rastreador-en-primera-persona)
+  - [9.2 Sensor](./9-Capa-Interacción-Percepción#92-sensor)
+  - [9.3 Autoconciencia](./9-Capa-Interacción-Percepción#93-autoconciencia)
 
 - #### 10. Capa de Interacción — Acción
 
-  - [10.1 Operación simulada](./10.1-Operación-simulada)
-  - [10.2 Invocación de habilidades](./10.2-Invocación-de-habilidades)
-  - [10.3 Comportamiento autónomo](./10.3-Comportamiento-autónomo)
+  - [10. Capa de Interacción — Acción](./10-Capa-Interacción-Acción)
+  - [10.1 Operación simulada](./10-Capa-Interacción-Acción#101-operación-simulada)
+  - [10.2 Invocación de habilidades](./10-Capa-Interacción-Acción#102-invocación-de-habilidades)
+  - [10.3 Comportamiento autónomo](./10-Capa-Interacción-Acción#103-comportamiento-autónomo)
 
 - #### 11. Capa de Cognición — Pensamiento
 
-  - [11.1 Montón de datos personales](./11.1-Montón-de-datos-personales)
-  - [11.2 Conocimiento externo](./11.2-Conocimiento-externo)
-  - [11.3 Conciencia alineada](./11.3-Conciencia-alineada)
+  - [11. Capa de Cognición — Pensamiento](./11-Capa-Cognición-Pensamiento)
+  - [11.1 Montón de datos personales](./11-Capa-Cognición-Pensamiento#111-montón-de-datos-personales)
+  - [11.2 Conocimiento externo](./11-Capa-Cognición-Pensamiento#112-conocimiento-externo)
+  - [11.3 Conciencia alineada](./11-Capa-Cognición-Pensamiento#113-conciencia-alineada)
 
 - #### 12. Capa de Cognición — Habilidades
 
-  - [12.1 Hub de controladores](./12.1-Hub-de-controladores)
-  - [12.2 Habilidades registradas](./12.2-Habilidades-registradas)
-  - [12.3 Habilidades internas](./12.3-Habilidades-internas)
+  - [12. Capa de Cognición — Habilidades](./12-Capa-Cognición-Habilidades)
+  - [12.1 Hub de controladores](./12-Capa-Cognición-Habilidades#121-hub-de-controladores)
+  - [12.2 Habilidades registradas](./12-Capa-Cognición-Habilidades#122-habilidades-registradas)
+  - [12.3 Habilidades internas](./12-Capa-Cognición-Habilidades#123-habilidades-internas)
 
 - #### Capa Ego
 
