@@ -2,42 +2,42 @@
 
 iFay (Individual Fay) est un avatar numérique IA qui fusionne les traits de personnalité d'un utilisateur avec des capacités numériques.
 
-- #### [1. Aperçu](./1-Aperçu)
+- #### [1. Aperçu](./01-Aperçu)
 
-  - [Notre vision](./1-Aperçu#notre-vision)
-  - [Imaginer l'avenir](./1-Aperçu#-imaginer-lavenir)
-  - [Pourquoi « Fay » plutôt qu'« Agent »](./1-Aperçu#️-pourquoi-fay-plutôt-quagent)
-  - [Framework iFay](./1-Aperçu#-framework-ifay)
+  - [Notre vision](./01-Aperçu#notre-vision)
+  - [Imaginer l'avenir](./01-Aperçu#-imaginer-lavenir)
+  - [Pourquoi « Fay » plutôt qu'« Agent »](./01-Aperçu#️-pourquoi-fay-plutôt-quagent)
+  - [Framework iFay](./01-Aperçu#-framework-ifay)
 
-- #### [2. Définition et concept](./2-Définition-et-concept)
+- #### [2. Définition et concept](./02-Définition-et-concept)
 
-- #### [3. Principes de conception](./3-Principes-de-conception)
+- #### [3. Principes de conception](./03-Principes-de-conception)
 
-- #### [4. Feuille de route : 5 phases](./4-Feuille-de-route)
+- #### [4. Feuille de route : 5 phases](./04-Feuille-de-route)
 
-  - [Phase 1 : Simulation des opérations humaines](./4-Feuille-de-route#1️⃣-phase-1-simulation-des-opérations-humaines)
-  - [Phase 2 : Prise de contrôle directe du client](./4-Feuille-de-route#2️⃣-phase-2-prise-de-contrôle-directe-du-client)
-  - [Phase 3 : iFay comme interface vers le monde virtuel](./4-Feuille-de-route#3️⃣-phase-3-ifay-comme-interface-vers-le-monde-virtuel)
-  - [Phase 4 : iFay + coFay — Personnification complète du logiciel](./4-Feuille-de-route#4️⃣-phase-4-ifay--cofay--personnification-complète-du-logiciel)
-  - [Phase 5 : Fay redéfinit la structure du travail et la distribution de la valeur](./4-Feuille-de-route#5️⃣-phase-5-fay-redéfinit-la-structure-du-travail-et-la-distribution-de-la-valeur)
+  - [Phase 1 : Simulation des opérations humaines](./04-Feuille-de-route#1️⃣-phase-1-simulation-des-opérations-humaines)
+  - [Phase 2 : Prise de contrôle directe du client](./04-Feuille-de-route#2️⃣-phase-2-prise-de-contrôle-directe-du-client)
+  - [Phase 3 : iFay comme interface vers le monde virtuel](./04-Feuille-de-route#3️⃣-phase-3-ifay-comme-interface-vers-le-monde-virtuel)
+  - [Phase 4 : iFay + coFay — Personnification complète du logiciel](./04-Feuille-de-route#4️⃣-phase-4-ifay--cofay--personnification-complète-du-logiciel)
+  - [Phase 5 : Fay redéfinit la structure du travail et la distribution de la valeur](./04-Feuille-de-route#5️⃣-phase-5-fay-redéfinit-la-structure-du-travail-et-la-distribution-de-la-valeur)
 
-- #### [5. Scénarios d'application iFay](./5-Scénarios-application-iFay)
+- #### [5. Scénarios d'application iFay](./05-Scénarios-application-iFay)
 
-- #### [6. iFay est une réplique de la personnalité humaine](./6-iFay-est-réplique-de-la-personnalité-humaine)
+- #### [6. iFay est une réplique de la personnalité humaine](./06-iFay-est-réplique-de-la-personnalité-humaine)
 
-- #### [7. Profil iFay](./7-Profil-iFay)
+- #### [7. Profil iFay](./07-Profil-iFay)
 
-- #### [8. Couche Sociale](./8-Couche-Sociale)
+- #### [8. Couche Sociale](./08-Couche-Sociale)
 
-  - [8.1 Identité (FayID)](./8-Couche-Sociale#81-identité-fayid)
-  - [8.2 Permissions Sociales](./8-Couche-Sociale#82-permissions-sociales)
-  - [8.3 Contribution Sociale & Voix](./8-Couche-Sociale#83-contribution-sociale--voix-gmchain--meritoken)
+  - [8.1 Identité (FayID)](./08-Couche-Sociale#81-identité-fayid)
+  - [8.2 Permissions Sociales](./08-Couche-Sociale#82-permissions-sociales)
+  - [8.3 Contribution Sociale & Voix](./08-Couche-Sociale#83-contribution-sociale--voix-gmchain--meritoken)
 
-- #### [9. Couche d'Interaction — Perception](./9-Couche-Interaction-Perception)
+- #### [9. Couche d'Interaction — Perception](./09-Couche-Interaction-Perception)
 
-  - [9.1 Traceur première personne](./9-Couche-Interaction-Perception#91-traceur-première-personne)
-  - [9.2 Capteur](./9-Couche-Interaction-Perception#92-capteur)
-  - [9.3 Conscience de soi](./9-Couche-Interaction-Perception#93-conscience-de-soi)
+  - [9.1 Traceur première personne](./09-Couche-Interaction-Perception#91-traceur-première-personne)
+  - [9.2 Capteur](./09-Couche-Interaction-Perception#92-capteur)
+  - [9.3 Conscience de soi](./09-Couche-Interaction-Perception#93-conscience-de-soi)
 
 - #### [10. Couche d'Interaction — Action](./10-Couche-Interaction-Action)
 

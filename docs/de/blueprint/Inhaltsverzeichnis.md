@@ -2,42 +2,42 @@
 
 iFay (Individual Fay) ist ein digitaler KI-Avatar, der die Persönlichkeitsmerkmale eines Nutzers mit digitalen Fähigkeiten verschmilzt.
 
-- #### [1. Überblick](./1-Überblick)
+- #### [1. Überblick](./01-Überblick)
 
-  - [Unsere Vision](./1-Überblick#unsere-vision)
-  - [Zukunftsvisionen](./1-Überblick#-zukunftsvisionen)
-  - [Warum „Fay" statt „Agent"](./1-Überblick#️-warum-fay-statt-agent)
-  - [iFay Framework](./1-Überblick#-ifay-framework)
+  - [Unsere Vision](./01-Überblick#unsere-vision)
+  - [Zukunftsvisionen](./01-Überblick#-zukunftsvisionen)
+  - [Warum „Fay" statt „Agent"](./01-Überblick#️-warum-fay-statt-agent)
+  - [iFay Framework](./01-Überblick#-ifay-framework)
 
-- #### [2. Definition und Konzept](./2-Definition-und-Konzept)
+- #### [2. Definition und Konzept](./02-Definition-und-Konzept)
 
-- #### [3. Designprinzipien](./3-Designprinzipien)
+- #### [3. Designprinzipien](./03-Designprinzipien)
 
-- #### [4. Roadmap: 5 Phasen](./4-Roadmap)
+- #### [4. Roadmap: 5 Phasen](./04-Roadmap)
 
-  - [Phase 1: Simulation menschlicher Bedienung](./4-Roadmap#1️⃣-phase-1-simulation-menschlicher-bedienung)
-  - [Phase 2: Direkte Client-Übernahme](./4-Roadmap#2️⃣-phase-2-direkte-client-übernahme)
-  - [Phase 3: iFay als Schnittstelle zur virtuellen Welt](./4-Roadmap#3️⃣-phase-3-ifay-als-schnittstelle-zur-virtuellen-welt)
-  - [Phase 4: iFay + coFay — Vollständige Personifizierung von Software](./4-Roadmap#4️⃣-phase-4-ifay--cofay--vollständige-personifizierung-von-software)
-  - [Phase 5: Fay gestaltet Arbeitsstruktur und Wertverteilung neu](./4-Roadmap#5️⃣-phase-5-fay-gestaltet-arbeitsstruktur-und-wertverteilung-neu)
+  - [Phase 1: Simulation menschlicher Bedienung](./04-Roadmap#1️⃣-phase-1-simulation-menschlicher-bedienung)
+  - [Phase 2: Direkte Client-Übernahme](./04-Roadmap#2️⃣-phase-2-direkte-client-übernahme)
+  - [Phase 3: iFay als Schnittstelle zur virtuellen Welt](./04-Roadmap#3️⃣-phase-3-ifay-als-schnittstelle-zur-virtuellen-welt)
+  - [Phase 4: iFay + coFay — Vollständige Personifizierung von Software](./04-Roadmap#4️⃣-phase-4-ifay--cofay--vollständige-personifizierung-von-software)
+  - [Phase 5: Fay gestaltet Arbeitsstruktur und Wertverteilung neu](./04-Roadmap#5️⃣-phase-5-fay-gestaltet-arbeitsstruktur-und-wertverteilung-neu)
 
-- #### [5. iFay-Anwendungsszenarien](./5-iFay-Anwendungsszenarien)
+- #### [5. iFay-Anwendungsszenarien](./05-iFay-Anwendungsszenarien)
 
-- #### [6. iFay ist Replikation der menschlichen Persönlichkeit](./6-iFay-ist-Replikation-der-menschlichen-Persönlichkeit)
+- #### [6. iFay ist Replikation der menschlichen Persönlichkeit](./06-iFay-ist-Replikation-der-menschlichen-Persönlichkeit)
 
-- #### [7. iFay-Profil](./7-iFay-Profil)
+- #### [7. iFay-Profil](./07-iFay-Profil)
 
-- #### [8. Soziale Schicht](./8-Soziale-Schicht)
+- #### [8. Soziale Schicht](./08-Soziale-Schicht)
 
-  - [8.1 Identität (FayID)](./8-Soziale-Schicht#81-identität-fayid)
-  - [8.2 Soziale Berechtigungen](./8-Soziale-Schicht#82-soziale-berechtigungen)
-  - [8.3 Sozialer Beitrag & Mitspracherecht](./8-Soziale-Schicht#83-sozialer-beitrag--mitspracherecht-gmchain--meritoken)
+  - [8.1 Identität (FayID)](./08-Soziale-Schicht#81-identität-fayid)
+  - [8.2 Soziale Berechtigungen](./08-Soziale-Schicht#82-soziale-berechtigungen)
+  - [8.3 Sozialer Beitrag & Mitspracherecht](./08-Soziale-Schicht#83-sozialer-beitrag--mitspracherecht-gmchain--meritoken)
 
-- #### [9. Interaktionsschicht — Wahrnehmung](./9-Interaktionsschicht-Wahrnehmung)
+- #### [9. Interaktionsschicht — Wahrnehmung](./09-Interaktionsschicht-Wahrnehmung)
 
-  - [9.1 Ego-Perspektive-Tracker](./9-Interaktionsschicht-Wahrnehmung#91-ego-perspektive-tracker)
-  - [9.2 Sensor](./9-Interaktionsschicht-Wahrnehmung#92-sensor)
-  - [9.3 Selbstwahrnehmung](./9-Interaktionsschicht-Wahrnehmung#93-selbstwahrnehmung)
+  - [9.1 Ego-Perspektive-Tracker](./09-Interaktionsschicht-Wahrnehmung#91-ego-perspektive-tracker)
+  - [9.2 Sensor](./09-Interaktionsschicht-Wahrnehmung#92-sensor)
+  - [9.3 Selbstwahrnehmung](./09-Interaktionsschicht-Wahrnehmung#93-selbstwahrnehmung)
 
 - #### [10. Interaktionsschicht — Aktion](./10-Interaktionsschicht-Aktion)
 

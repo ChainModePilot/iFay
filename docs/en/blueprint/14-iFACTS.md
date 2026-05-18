@@ -125,4 +125,4 @@ Behavioral constraint testing: When the Human Prime's child attempts to disable 
 ### Related Documents
 
 - [FayManifest](./13-FayManifest) — Declarative assembly
-- [Roadmap](./4-Roadmap) — Phases
+- [Roadmap](./04-Roadmap) — Phases

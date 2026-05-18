@@ -189,5 +189,5 @@ Each phase has its Minimum Component Set. When developers claim support for a ph
 ### Related Documents
 
 - [iFACTS](./14-iFACTS) — Conformance testing
-- [Roadmap](./4-Roadmap) — Phase configuration
+- [Roadmap](./04-Roadmap) — Phase configuration
 - [Device Driver Hub](./12.1-Device-Driver-Hub) — Driver configuration

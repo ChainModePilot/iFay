@@ -2,42 +2,42 @@
 
 iFay (Individual Fay) is an AI digital avatar that fuses a user's personality traits with digital capabilities.
 
-- #### [1. Overview](./1-Overview)
+- #### [1. Overview](./01-Overview)
 
-  - [Our Vision](./1-Overview#our-vision)
-  - [Envisioning the Future](./1-Overview#-envisioning-the-future)
-  - [Why "Fay" Instead of "Agent"](./1-Overview#️-why-fay-instead-of-agent)
-  - [iFay Framework](./1-Overview#-ifay-framework)
+  - [Our Vision](./01-Overview#our-vision)
+  - [Envisioning the Future](./01-Overview#-envisioning-the-future)
+  - [Why "Fay" Instead of "Agent"](./01-Overview#️-why-fay-instead-of-agent)
+  - [iFay Framework](./01-Overview#-ifay-framework)
 
-- #### [2. Definition and Concept](./2-Definition-and-Concept)
+- #### [2. Definition and Concept](./02-Definition-and-Concept)
 
-- #### [3. Design Principles](./3-Design-Principles)
+- #### [3. Design Principles](./03-Design-Principles)
 
-- #### [4. Roadmap: 5 Phases](./4-Roadmap)
+- #### [4. Roadmap: 5 Phases](./04-Roadmap)
 
-  - [Phase 1: Simulating Human Operations](./4-Roadmap#1️⃣-phase-1-simulating-human-operations)
-  - [Phase 2: Direct Client Takeover](./4-Roadmap#2️⃣-phase-2-direct-client-takeover)
-  - [Phase 3: iFay as the Interface to the Virtual World](./4-Roadmap#3️⃣-phase-3-ifay-as-the-interface-to-the-virtual-world)
-  - [Phase 4: iFay + coFay — Full Personification of Software](./4-Roadmap#4️⃣-phase-4-ifay--cofay--full-personification-of-software)
-  - [Phase 5: Fay Reshapes Labor Structure and Value Distribution](./4-Roadmap#5️⃣-phase-5-fay-reshapes-labor-structure-and-value-distribution)
+  - [Phase 1: Simulating Human Operations](./04-Roadmap#1️⃣-phase-1-simulating-human-operations)
+  - [Phase 2: Direct Client Takeover](./04-Roadmap#2️⃣-phase-2-direct-client-takeover)
+  - [Phase 3: iFay as the Interface to the Virtual World](./04-Roadmap#3️⃣-phase-3-ifay-as-the-interface-to-the-virtual-world)
+  - [Phase 4: iFay + coFay — Full Personification of Software](./04-Roadmap#4️⃣-phase-4-ifay--cofay--full-personification-of-software)
+  - [Phase 5: Fay Reshapes Labor Structure and Value Distribution](./04-Roadmap#5️⃣-phase-5-fay-reshapes-labor-structure-and-value-distribution)
 
-- #### [5. iFay Application Scenarios](./5-Application-Scenarios)
+- #### [5. iFay Application Scenarios](./05-Application-Scenarios)
 
-- #### [6. iFay Is a Replication of Human Personality](./6-iFay-Personality-Replication)
+- #### [6. iFay Is a Replication of Human Personality](./06-iFay-Personality-Replication)
 
-- #### [7. iFay Profile](./7-iFay-Profile)
+- #### [7. iFay Profile](./07-iFay-Profile)
 
-- #### [8. Social Layer](./8-Social-Layer)
+- #### [8. Social Layer](./08-Social-Layer)
 
-  - [8.1 Identity (FayID)](./8-Social-Layer#81-identity-fayid)
-  - [8.2 Social Permissions](./8-Social-Layer#82-social-permissions)
-  - [8.3 Social Contribution & Voice](./8-Social-Layer#83-social-contribution--voice-gmchain--meritoken)
+  - [8.1 Identity (FayID)](./08-Social-Layer#81-identity-fayid)
+  - [8.2 Social Permissions](./08-Social-Layer#82-social-permissions)
+  - [8.3 Social Contribution & Voice](./08-Social-Layer#83-social-contribution--voice-gmchain--meritoken)
 
-- #### [9. Interaction Layer — Perception](./9-Interaction-Layer-Perception)
+- #### [9. Interaction Layer — Perception](./09-Interaction-Layer-Perception)
 
-  - [9.1 First-person Tracer](./9-Interaction-Layer-Perception#91-first-person-tracer)
-  - [9.2 Sensor](./9-Interaction-Layer-Perception#92-sensor)
-  - [9.3 Self-awareness](./9-Interaction-Layer-Perception#93-self-awareness)
+  - [9.1 First-person Tracer](./09-Interaction-Layer-Perception#91-first-person-tracer)
+  - [9.2 Sensor](./09-Interaction-Layer-Perception#92-sensor)
+  - [9.3 Self-awareness](./09-Interaction-Layer-Perception#93-self-awareness)
 
 - #### [10. Interaction Layer — Action](./10-Interaction-Layer-Action)
 

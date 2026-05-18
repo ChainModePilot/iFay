@@ -98,7 +98,7 @@ Después de que el Tutor asume el control, puede elegir continuar interactuando 
 
 ### Documentos relacionados
 
-- [Perfil iFay](./7-Perfil-iFay) — Registros de relación de tutela
+- [Perfil iFay](./07-Perfil-iFay) — Registros de relación de tutela
 - [Gestión de Credenciales](./8.1-Gestión-de-credenciales) — Revocación de credenciales
 
 ---

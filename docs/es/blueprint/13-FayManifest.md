@@ -144,5 +144,5 @@ Después de la resolución de dependencias, el sistema determina la fase de iFay
 ### Documentos relacionados
 
 - [iFACTS](./14-iFACTS) — Pruebas de conformidad
-- [Hoja de ruta](./4-Hoja-de-ruta) — Configuración por fases
+- [Hoja de ruta](./04-Hoja-de-ruta) — Configuración por fases
 - [Hub de controladores](./12.1-Hub-de-controladores) — Configuración de controladores

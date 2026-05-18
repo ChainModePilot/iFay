@@ -95,4 +95,4 @@ coFay (Common Fay) tiene su propio conjunto de pruebas de conformidad independie
 ### Documentos relacionados
 
 - [FayManifest](./13-FayManifest) — Ensamblaje declarativo
-- [Hoja de ruta](./4-Hoja-de-ruta) — Fases
+- [Hoja de ruta](./04-Hoja-de-ruta) — Fases

@@ -152,5 +152,5 @@ Chaque phase a son Ensemble Minimal de Composants :
 ### Documents associés
 
 - [iFACTS](./14-iFACTS) — Tests de conformité
-- [Feuille de route](./4-Feuille-de-route) — Configuration par phase
+- [Feuille de route](./04-Feuille-de-route) — Configuration par phase
 - [Hub pilotes périphériques](./12.1-Hub-pilotes-périphériques) — Configuration des pilotes

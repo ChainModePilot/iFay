@@ -90,7 +90,7 @@ Der gesamte Prozess ist atomar: Entweder werden alle Schritte abgeschlossen oder
 
 ### Verwandte Dokumente
 
-- [iFay-Profil](./7-iFay-Profil) — Vormundschaftsbeziehungsaufzeichnungen
+- [iFay-Profil](./07-iFay-Profil) — Vormundschaftsbeziehungsaufzeichnungen
 - [Anmeldeinformationen-Verwaltung](./8.1-Anmeldeinformationen-Verwaltung) — Anmeldeinformationen-Widerruf
 
 ---

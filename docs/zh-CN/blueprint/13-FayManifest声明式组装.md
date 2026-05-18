@@ -190,5 +190,5 @@ iFACTS（iFay Architecture Conformance Test Suite）根据 FayManifest 的声明
 ### 相关文档
 
 - [iFACTS](./14-iFACTS合规性验证) — 合规性验证
-- [路线图](./4-路线图) — 阶段配置
+- [路线图](./04-路线图) — 阶段配置
 - [设备驱动中枢](./12-认知层-技能#121-设备驱动中枢) — 驱动配置

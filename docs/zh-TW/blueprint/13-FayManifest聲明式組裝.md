@@ -190,5 +190,5 @@ iFACTS（iFay Architecture Conformance Test Suite）根據 FayManifest 的宣告
 ### 相關文件
 
 - [iFACTS](./14-iFACTS合規性驗證) — 合規性驗證
-- [路線圖](./4-路線圖) — 階段設定
+- [路線圖](./04-路線圖) — 階段設定
 - [設備驅動中樞](./12.1-設備驅動中樞) — 驅動設定
